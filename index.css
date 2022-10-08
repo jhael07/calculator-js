@@ -1,0 +1,53 @@
+.container {
+  margin: auto;
+  width: 25%;
+  min-width: 280px;
+  display: column;
+  justify-content: center;
+  background-color: rgb(205, 232, 250);
+  border-radius: 1rem;
+  border: 1px solid rgb(175, 175, 175);
+  box-shadow: 6px 6px 13px rgba(46, 46, 46, 0.379);
+}
+
+.input {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  grid-column: span 4;
+}
+
+.screen {
+  height: 40px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  text-align: end;
+  font-size: 22px;
+}
+
+button {
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 11%;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(248, 252, 254);
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: rgb(2, 132, 202);
+  color: white;
+  transition: 0.2s;
+}
+
+.equal {
+  width: 7.5rem;
+  border-radius: 3rem;
+}
